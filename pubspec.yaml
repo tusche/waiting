@@ -1,6 +1,6 @@
 name: waiting
-description: "A waiting widget"
-version: 1.0.1
+description: "Waiting is a part of any app: loading resources takes time and the user needs to be informed that he has to wait. This package provides a `WaitingWidget`: a widget showing a progress indicator, including animations, transitions and customizations."
+version: 1.0.3
 repository: https://github.com/tusche/waiting.git
 
 environment:
