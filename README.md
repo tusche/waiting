@@ -94,4 +94,4 @@ The `WaitingWidget` uses a `SceneController` and widgets using `SceneWidget` imp
 
 Check out [waiting.dart](https://github.com/tusche/waiting/blob/main/lib/waiting.dart) to see how its done and get inspired.
 
-Also check out the source for the companion presentation presented at the [fluttercon 2024](https://fluttercon.dev/andre-schmidt-di-salvo/) to see how "scenes" can be used to build a presentation.
+Also check out the [source](https://github.com/tusche/waiting_presentation) for the companion presentation presented at the [fluttercon 2024](https://fluttercon.dev/andre-schmidt-di-salvo/) to see how "scenes" can be used to build e.g. a presentation.
