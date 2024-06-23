@@ -1,14 +1,14 @@
 ## Introduction
 
-Waiting is a part of any app: loading resources takes time and the user needs to wait. While loading the app has to inform the user that he has to wait.
+Waiting is a part of any app: loading resources takes time and the user needs to be informed that he has to wait.
 
-This package provides a `WaitingWidget`: a widget showing a progress indicator, including transitions, animations and customizations.
+This package provides a `WaitingWidget`: a widget showing a progress indicator, including animations, transitions and customizations.
 
 ## Getting started
 Add the dependency to your flutter project:
 ```dart
 dependencies:
-  waiting: ^1.0.0
+  waiting: ^1.0.2
 ```
 
 Import the package:
@@ -57,9 +57,9 @@ the result looks like this:
 
 ### Setting a timeout
 
-After a certain period of waiting the user should be informed that the waiting will take a bit longer or give the user the possibility to cancel the operation that causes the waiting.
+After a certain period of waiting the user should be informed that the waiting will take longer or give the user the possibility to cancel the operation that causes the waiting.
 
-The `WaitingWidget` offers the paramter `timeout` to specify a duration after which a timeout widget is displayed:
+The `WaitingWidget` offers the parameter `timeout` to specify a timeout duration after which a widget informing the user is displayed:
 
 ```
 WaitingWidget(
@@ -94,4 +94,4 @@ The `WaitingWidget` uses a `SceneController` and widgets using `SceneWidget` imp
 
 Check out [waiting.dart](https://github.com/tusche/waiting/blob/main/lib/waiting.dart) to see how its done and get inspired.
 
-Also check out the [source](https://github.com/tusche/waiting_presentation) for the companion presentation presented at the [fluttercon 2024](https://fluttercon.dev/andre-schmidt-di-salvo/) to see how "scenes" can be used to build e.g. a presentation.
+Also check out the [source](https://github.com/tusche/waiting_presentation) for the companion presentation presented at the [fluttercon 2024](https://fluttercon.dev/andre-schmidt-di-salvo/) to see how "scenes" can be used to e.g. build a presentation.

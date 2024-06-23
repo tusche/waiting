@@ -4,4 +4,8 @@
 
 ## 1.0.1
 
-* Updated README.md to include link to presentation repository. 
+* Updated README.md to include link to presentation repository.
+
+## 1.0.2
+
+* Updated README.md to fix typos
